@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-red: #FF3333;
+  --font-heading: "Kanit", sans-serif;
+  --font-body: "Kanit", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white font-body;
+  }
+}
